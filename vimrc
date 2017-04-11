@@ -34,5 +34,5 @@ let mapleader ="\<Space>"
 map <Leader>W :w !sudo tee > /dev/null %<CR>
 
 "Haskell settings
- au BufNewFile,BufRead *.hs set tabstop=8                   "A tab is 8 spaces
+ au BufNewFile,BufRead *.hs set tabstop=4                   "A tab is 8 spaces
  au BufNewFile,BufRead *.hs set expandtab                   "Always uses spaces instead of tabs
